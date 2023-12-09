@@ -1,8 +1,8 @@
-# Install script for directory: /home/zhaoxf/ROS/demo01_ws/src/hello_world
+# Install script for directory: /home/zhaoxf/ros_learn/demo01_ws/src/hello_world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf/ROS/demo01_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf/ros_learn/demo01_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/msg" TYPE FILE FILES "/home/zhaoxf/ROS/demo01_ws/src/hello_world/msg/person.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/msg" TYPE FILE FILES "/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/msg/person.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/cmake" TYPE FILE FILES "/home/zhaoxf/ROS/demo01_ws/build/hello_world/catkin_generated/installspace/hello_world-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/cmake" TYPE FILE FILES "/home/zhaoxf/ros_learn/demo01_ws/build/hello_world/catkin_generated/installspace/hello_world-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/zhaoxf/ROS/demo01_ws/devel/include/hello_world")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/zhaoxf/ros_learn/demo01_ws/devel/include/hello_world")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/zhaoxf/ROS/demo01_ws/devel/share/roseus/ros/hello_world")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/zhaoxf/ros_learn/demo01_ws/devel/share/roseus/ros/hello_world")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/zhaoxf/ROS/demo01_ws/devel/share/common-lisp/ros/hello_world")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/zhaoxf/ros_learn/demo01_ws/devel/share/common-lisp/ros/hello_world")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/zhaoxf/ROS/demo01_ws/devel/share/gennodejs/ros/hello_world")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/zhaoxf/ros_learn/demo01_ws/devel/share/gennodejs/ros/hello_world")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/zhaoxf/ROS/demo01_ws/devel/lib/python2.7/dist-packages/hello_world")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/python2.7/dist-packages/hello_world")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/zhaoxf/ROS/demo01_ws/devel/lib/python2.7/dist-packages/hello_world")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/python2.7/dist-packages/hello_world")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf/ROS/demo01_ws/build/hello_world/catkin_generated/installspace/hello_world.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf/ros_learn/demo01_ws/build/hello_world/catkin_generated/installspace/hello_world.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/cmake" TYPE FILE FILES "/home/zhaoxf/ROS/demo01_ws/build/hello_world/catkin_generated/installspace/hello_world-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/cmake" TYPE FILE FILES "/home/zhaoxf/ros_learn/demo01_ws/build/hello_world/catkin_generated/installspace/hello_world-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world/cmake" TYPE FILE FILES
-    "/home/zhaoxf/ROS/demo01_ws/build/hello_world/catkin_generated/installspace/hello_worldConfig.cmake"
-    "/home/zhaoxf/ROS/demo01_ws/build/hello_world/catkin_generated/installspace/hello_worldConfig-version.cmake"
+    "/home/zhaoxf/ros_learn/demo01_ws/build/hello_world/catkin_generated/installspace/hello_worldConfig.cmake"
+    "/home/zhaoxf/ros_learn/demo01_ws/build/hello_world/catkin_generated/installspace/hello_worldConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world" TYPE FILE FILES "/home/zhaoxf/ROS/demo01_ws/src/hello_world/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_world" TYPE FILE FILES "/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/package.xml")
 endif()
 

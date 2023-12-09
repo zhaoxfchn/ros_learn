@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hello_world_generate_messages_cpp"
-  "/home/zhaoxf/ROS/demo01_ws/devel/include/hello_world/person.h"
+  "/home/zhaoxf/ros_learn/demo01_ws/devel/include/hello_world/person.h"
 )
 
 # Per-language clean rules from dependency scanning.

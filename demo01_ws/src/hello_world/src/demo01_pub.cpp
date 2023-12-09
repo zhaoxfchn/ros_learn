@@ -50,7 +50,7 @@ int main(int argc, char  *argv[])
     int count = 0; //消息计数器
 
     //逻辑频率
-    ros::Rate r(1);
+    ros::Rate r(10);
     ros::Duration(3).sleep();
     //节点不死
     while (ros::ok())

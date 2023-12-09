@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zhaoxf/ROS/demo01_ws/devel/include/hello_world/person.h
+/home/zhaoxf/ros_learn/demo01_ws/devel/include/hello_world/person.h
 string
 -
 vector
@@ -22,11 +22,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/zhaoxf/ROS/demo01_ws/src/hello_world/src/demo04_sub_msg.cpp
+/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/src/demo04_sub_msg.cpp
 ros/ros.h
-/home/zhaoxf/ROS/demo01_ws/src/hello_world/src/ros/ros.h
+/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/src/ros/ros.h
 hello_world/person.h
-/home/zhaoxf/ROS/demo01_ws/src/hello_world/src/hello_world/person.h
+/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/src/hello_world/person.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

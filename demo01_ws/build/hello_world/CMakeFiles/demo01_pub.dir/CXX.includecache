@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/zhaoxf/ROS/demo01_ws/src/hello_world/src/demo01_pub.cpp
+/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/src/demo01_pub.cpp
 ros/ros.h
-/home/zhaoxf/ROS/demo01_ws/src/hello_world/src/ros/ros.h
+/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/src/ros/ros.h
 std_msgs/String.h
-/home/zhaoxf/ROS/demo01_ws/src/hello_world/src/std_msgs/String.h
+/home/zhaoxf/ros_learn/demo01_ws/src/hello_world/src/std_msgs/String.h
 sstream
 -
 

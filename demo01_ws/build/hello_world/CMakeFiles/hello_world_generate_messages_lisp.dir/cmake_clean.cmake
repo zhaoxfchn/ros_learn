@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hello_world_generate_messages_lisp"
-  "/home/zhaoxf/ROS/demo01_ws/devel/share/common-lisp/ros/hello_world/msg/person.lisp"
+  "/home/zhaoxf/ros_learn/demo01_ws/devel/share/common-lisp/ros/hello_world/msg/person.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

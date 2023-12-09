@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhaoxf/ROS/demo01_ws/src
+CMAKE_SOURCE_DIR = /home/zhaoxf/ros_learn/demo01_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhaoxf/ROS/demo01_ws/build
+CMAKE_BINARY_DIR = /home/zhaoxf/ros_learn/demo01_ws/build
 
 # Utility rule file for hello_world_gencpp.
 
@@ -63,10 +63,10 @@ hello_world/CMakeFiles/hello_world_gencpp.dir/build: hello_world_gencpp
 .PHONY : hello_world/CMakeFiles/hello_world_gencpp.dir/build
 
 hello_world/CMakeFiles/hello_world_gencpp.dir/clean:
-	cd /home/zhaoxf/ROS/demo01_ws/build/hello_world && $(CMAKE_COMMAND) -P CMakeFiles/hello_world_gencpp.dir/cmake_clean.cmake
+	cd /home/zhaoxf/ros_learn/demo01_ws/build/hello_world && $(CMAKE_COMMAND) -P CMakeFiles/hello_world_gencpp.dir/cmake_clean.cmake
 .PHONY : hello_world/CMakeFiles/hello_world_gencpp.dir/clean
 
 hello_world/CMakeFiles/hello_world_gencpp.dir/depend:
-	cd /home/zhaoxf/ROS/demo01_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhaoxf/ROS/demo01_ws/src /home/zhaoxf/ROS/demo01_ws/src/hello_world /home/zhaoxf/ROS/demo01_ws/build /home/zhaoxf/ROS/demo01_ws/build/hello_world /home/zhaoxf/ROS/demo01_ws/build/hello_world/CMakeFiles/hello_world_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zhaoxf/ros_learn/demo01_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhaoxf/ros_learn/demo01_ws/src /home/zhaoxf/ros_learn/demo01_ws/src/hello_world /home/zhaoxf/ros_learn/demo01_ws/build /home/zhaoxf/ros_learn/demo01_ws/build/hello_world /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/hello_world_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hello_world/CMakeFiles/hello_world_gencpp.dir/depend
 

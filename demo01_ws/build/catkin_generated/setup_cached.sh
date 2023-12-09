@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/zhaoxf/ROS/demo01_ws/build'
+export PWD='/home/zhaoxf/ros_learn/demo01_ws/build'

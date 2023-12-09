@@ -67,14 +67,14 @@ set(hello_world_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hello_world_SOURCE_PREFIX /home/zhaoxf/ROS/demo01_ws/src/hello_world)
-  set(hello_world_DEVEL_PREFIX /home/zhaoxf/ROS/demo01_ws/devel)
+  set(hello_world_SOURCE_PREFIX /home/zhaoxf/ros_learn/demo01_ws/src/hello_world)
+  set(hello_world_DEVEL_PREFIX /home/zhaoxf/ros_learn/demo01_ws/devel)
   set(hello_world_INSTALL_PREFIX "")
   set(hello_world_PREFIX ${hello_world_DEVEL_PREFIX})
 else()
   set(hello_world_SOURCE_PREFIX "")
   set(hello_world_DEVEL_PREFIX "")
-  set(hello_world_INSTALL_PREFIX /home/zhaoxf/ROS/demo01_ws/install)
+  set(hello_world_INSTALL_PREFIX /home/zhaoxf/ros_learn/demo01_ws/install)
   set(hello_world_PREFIX ${hello_world_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zhaoxf/ROS/demo01_ws/install/lib;/home/zhaoxf/ROS/demo01_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/zhaoxf/ros_learn/demo01_ws/install/lib;/home/zhaoxf/ros_learn/demo01_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
