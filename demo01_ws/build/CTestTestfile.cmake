@@ -6,4 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("hello_world")
+subdirs("plumbing_param")
 subdirs("plumbing_server_client")

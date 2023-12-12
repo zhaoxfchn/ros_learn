@@ -1,2 +1,2 @@
-hello_world:plumbing_server_client
+hello_world:plumbing_param:plumbing_server_client
 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/zhaoxf/ros_learn/demo01_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhaoxf/ros_learn/demo01_ws/install -G Unix Makefiles

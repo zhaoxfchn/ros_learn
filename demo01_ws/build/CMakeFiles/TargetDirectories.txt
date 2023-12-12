@@ -73,6 +73,16 @@
 /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/hello_world_generate_messages_eus.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/rebuild_cache.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/install/strip.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/install.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/demo02_param_get.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/list_install_components.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/demo01_param_set.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/install/local.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/demo03_param_delete.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/test.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/edit_cache.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/rebuild_cache.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/plumbing_server_client/CMakeFiles/install/strip.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/plumbing_server_client/CMakeFiles/install/local.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/plumbing_server_client/CMakeFiles/plumbing_server_client_geneus.dir
