@@ -73,6 +73,13 @@
 /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/hello_world_generate_messages_eus.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/hello_world/CMakeFiles/rebuild_cache.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/install/strip.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/edit_cache.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/list_install_components.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/test.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/install/local.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/rebuild_cache.dir
+/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic/CMakeFiles/install.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/install/strip.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/install.dir
 /home/zhaoxf/ros_learn/demo01_ws/build/plumbing_param/CMakeFiles/demo02_param_get.dir

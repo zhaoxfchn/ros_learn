@@ -1483,6 +1483,24 @@ clean: hello_world/CMakeFiles/hello_world_generate_messages_eus.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory launch_basic
+
+# Convenience name for "all" pass in the directory.
+launch_basic/all:
+
+.PHONY : launch_basic/all
+
+# Convenience name for "clean" pass in the directory.
+launch_basic/clean:
+
+.PHONY : launch_basic/clean
+
+# Convenience name for "preinstall" pass in the directory.
+launch_basic/preinstall:
+
+.PHONY : launch_basic/preinstall
+
+#=============================================================================
 # Directory level rules for directory plumbing_param
 
 # Convenience name for "all" pass in the directory.

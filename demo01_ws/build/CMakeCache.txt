@@ -363,6 +363,12 @@ hello_world_BINARY_DIR:STATIC=/home/zhaoxf/ros_learn/demo01_ws/build/hello_world
 //Value Computed by CMake
 hello_world_SOURCE_DIR:STATIC=/home/zhaoxf/ros_learn/demo01_ws/src/hello_world
 
+//Value Computed by CMake
+launch_basic_BINARY_DIR:STATIC=/home/zhaoxf/ros_learn/demo01_ws/build/launch_basic
+
+//Value Computed by CMake
+launch_basic_SOURCE_DIR:STATIC=/home/zhaoxf/ros_learn/demo01_ws/src/launch_basic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
@@ -521,7 +527,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
