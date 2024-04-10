@@ -1,8 +1,8 @@
-# Install script for directory: /home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs
+# Install script for directory: /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf/motion-plan/demo05_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -37,71 +37,66 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/msg" TYPE FILE FILES
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/msg/Analog.msg"
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/msg/Digital.msg"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/msg/Analog.msg"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/msg/Digital.msg"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/srv" TYPE FILE FILES
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/Enable.srv"
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/Relax.srv"
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/SetupChannel.srv"
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/SetSpeed.srv"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/Enable.srv"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/Relax.srv"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/SetupChannel.srv"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/srv/SetSpeed.srv"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/cmake" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgs-msg-paths.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/cmake" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgs-msg-paths.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/zhaoxf/motion-plan/demo05_ws/devel/include/arbotix_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/include/arbotix_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/zhaoxf/motion-plan/demo05_ws/devel/share/roseus/ros/arbotix_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/share/roseus/ros/arbotix_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/zhaoxf/motion-plan/demo05_ws/devel/share/common-lisp/ros/arbotix_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/share/common-lisp/ros/arbotix_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/zhaoxf/motion-plan/demo05_ws/devel/share/gennodejs/ros/arbotix_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/share/gennodejs/ros/arbotix_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgs.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgs.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/cmake" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgs-msg-extras.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/cmake" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgs-msg-extras.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs/cmake" TYPE FILE FILES
-    "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgsConfig.cmake"
-    "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgsConfig-version.cmake"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgsConfig.cmake"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_msgs/catkin_generated/installspace/arbotix_msgsConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_msgs/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_msgs" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_msgs/package.xml")
 endif()
 

@@ -67,14 +67,14 @@ set(arbotix_firmware_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(arbotix_firmware_SOURCE_PREFIX /home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_firmware)
-  set(arbotix_firmware_DEVEL_PREFIX /home/zhaoxf/motion-plan/demo05_ws/devel)
+  set(arbotix_firmware_SOURCE_PREFIX /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_firmware)
+  set(arbotix_firmware_DEVEL_PREFIX /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel)
   set(arbotix_firmware_INSTALL_PREFIX "")
   set(arbotix_firmware_PREFIX ${arbotix_firmware_DEVEL_PREFIX})
 else()
   set(arbotix_firmware_SOURCE_PREFIX "")
   set(arbotix_firmware_DEVEL_PREFIX "")
-  set(arbotix_firmware_INSTALL_PREFIX /home/zhaoxf/motion-plan/demo05_ws/install)
+  set(arbotix_firmware_INSTALL_PREFIX /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/install)
   set(arbotix_firmware_PREFIX ${arbotix_firmware_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zhaoxf/motion-plan/demo05_ws/install/lib;/home/zhaoxf/motion-plan/demo05_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(arbotix_firmware_LIBRARIES ${arbotix_firmware_LIBRARIES})
 
   _list_append_unique(arbotix_firmware_LIBRARY_DIRS ${${arbotix_firmware_dep}_LIBRARY_DIRS})
-  list(APPEND arbotix_firmware_EXPORTED_TARGETS ${${arbotix_firmware_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(arbotix_firmware_EXPORTED_TARGETS ${${arbotix_firmware_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

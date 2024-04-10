@@ -1,8 +1,8 @@
-# Install script for directory: /home/zhaoxf/motion-plan/demo05_ws/src/urdf01_rviz
+# Install script for directory: /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/urdf01_rviz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf/motion-plan/demo05_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -37,23 +37,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/urdf01_rviz/catkin_generated/installspace/urdf01_rviz.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/build/urdf01_rviz/catkin_generated/installspace/urdf01_rviz.pc")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf01_rviz/cmake" TYPE FILE FILES
-    "/home/zhaoxf/motion-plan/demo05_ws/build/urdf01_rviz/catkin_generated/installspace/urdf01_rvizConfig.cmake"
-    "/home/zhaoxf/motion-plan/demo05_ws/build/urdf01_rviz/catkin_generated/installspace/urdf01_rvizConfig-version.cmake"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/urdf01_rviz/catkin_generated/installspace/urdf01_rvizConfig.cmake"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/urdf01_rviz/catkin_generated/installspace/urdf01_rvizConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf01_rviz" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/src/urdf01_rviz/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdf01_rviz" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/urdf01_rviz/package.xml")
 endif()
 

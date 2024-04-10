@@ -1,2 +1,2 @@
-arbotix_ros/arbotix:arbotix_ros/arbotix_controllers:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors:urdf01_rviz
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/zhaoxf/motion-plan/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhaoxf/motion-plan/demo05_ws/install -G Unix Makefiles
+arbotix_ros/arbotix:arbotix_ros/arbotix_controllers:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors:nav_demo:urdf01_rviz:urdf02_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/install -G Unix Makefiles

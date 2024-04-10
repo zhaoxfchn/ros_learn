@@ -1,4 +1,4 @@
-prefix=/home/zhaoxf/motion-plan/demo05_ws/devel
+prefix=/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel
 
 Name: arbotix_firmware
 Description: Description of arbotix_firmware

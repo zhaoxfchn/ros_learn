@@ -94,16 +94,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::arbotix_msgs::Analog_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::arbotix_msgs::Analog_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::arbotix_msgs::Analog_<ContainerAllocator> >
   : TrueType
   { };
@@ -111,6 +101,16 @@ struct IsMessage< ::arbotix_msgs::Analog_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::arbotix_msgs::Analog_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::arbotix_msgs::Analog_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::arbotix_msgs::Analog_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

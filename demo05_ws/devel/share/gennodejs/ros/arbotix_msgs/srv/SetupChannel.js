@@ -84,7 +84,7 @@ class SetupChannelRequest {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.topic_name.length;
+    length += _getByteLength(object.topic_name);
     return length + 7;
   }
 

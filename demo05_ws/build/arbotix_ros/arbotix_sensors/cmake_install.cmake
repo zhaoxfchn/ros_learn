@@ -1,8 +1,8 @@
-# Install script for directory: /home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_sensors
+# Install script for directory: /home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_sensors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf/motion-plan/demo05_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -37,34 +37,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/installspace/arbotix_sensors.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/installspace/arbotix_sensors.pc")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_sensors/cmake" TYPE FILE FILES
-    "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/installspace/arbotix_sensorsConfig.cmake"
-    "/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/installspace/arbotix_sensorsConfig-version.cmake"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/installspace/arbotix_sensorsConfig.cmake"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/installspace/arbotix_sensorsConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_sensors" TYPE FILE FILES "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_sensors/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arbotix_sensors" TYPE FILE FILES "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_sensors/package.xml")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/zhaoxf/motion-plan/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/safe_execute_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build/arbotix_ros/arbotix_sensors/catkin_generated/safe_execute_install.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arbotix_sensors" TYPE PROGRAM FILES
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_sensors/bin/ir_ranger.py"
-    "/home/zhaoxf/motion-plan/demo05_ws/src/arbotix_ros/arbotix_sensors/bin/max_sonar.py"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_sensors/bin/ir_ranger.py"
+    "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src/arbotix_ros/arbotix_sensors/bin/max_sonar.py"
     )
 endif()
 

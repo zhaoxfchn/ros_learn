@@ -1,4 +1,4 @@
-prefix=/home/zhaoxf/motion-plan/demo05_ws/devel
+prefix=/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel
 
 Name: urdf01_rviz
 Description: Description of urdf01_rviz

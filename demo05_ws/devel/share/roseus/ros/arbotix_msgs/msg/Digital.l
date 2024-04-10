@@ -26,6 +26,15 @@
 (intern "*OUTPUT*" (find-package "ARBOTIX_MSGS::DIGITAL"))
 (shadow '*OUTPUT* (find-package "ARBOTIX_MSGS::DIGITAL"))
 (defconstant arbotix_msgs::Digital::*OUTPUT* 255)
+
+(defun arbotix_msgs::Digital-to-symbol (const)
+  (cond
+        ((= const 0) 'arbotix_msgs::Digital::*LOW*)
+        ((= const 255) 'arbotix_msgs::Digital::*HIGH*)
+        ((= const 0) 'arbotix_msgs::Digital::*INPUT*)
+        ((= const 255) 'arbotix_msgs::Digital::*OUTPUT*)
+        (t nil)))
+
 (defclass arbotix_msgs::Digital
   :super ros::object
   :slots (_header _value _direction ))

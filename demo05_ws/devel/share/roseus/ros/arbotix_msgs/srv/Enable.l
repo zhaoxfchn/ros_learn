@@ -31,8 +31,8 @@
    (setq _enable __enable)
    self)
   (:enable
-   (&optional __enable)
-   (if __enable (setq _enable __enable)) _enable)
+   (&optional (__enable :null))
+   (if (not (eq __enable :null)) (setq _enable __enable)) _enable)
   (:serialization-length
    ()
    (+
@@ -68,8 +68,8 @@
    (setq _state __state)
    self)
   (:state
-   (&optional __state)
-   (if __state (setq _state __state)) _state)
+   (&optional (__state :null))
+   (if (not (eq __state :null)) (setq _state __state)) _state)
   (:serialization-length
    ()
    (+

@@ -7,6 +7,11 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/zhaoxf/motion-plan/demo05_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/zhaoxf/motion-plan/demo05_ws/build'
-export PYTHONPATH="/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export CMAKE_PREFIX_PATH="/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/bin:$PATH"
+export PKG_CONFIG_PATH="/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/build'
+export PYTHONPATH="/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/src:$ROS_PACKAGE_PATH"

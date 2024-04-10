@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/msg/_Analog.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/msg/_Digital.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/msg/__init__.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/srv/_Enable.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/srv/_Relax.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/srv/_SetSpeed.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/srv/_SetupChannel.py"
-  "/home/zhaoxf/motion-plan/demo05_ws/devel/lib/python2.7/dist-packages/arbotix_msgs/srv/__init__.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/msg/_Analog.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/msg/_Digital.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/msg/__init__.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/srv/_Enable.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/srv/_Relax.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/srv/_SetSpeed.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/srv/_SetupChannel.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo05_ws/devel/lib/python3/dist-packages/arbotix_msgs/srv/__init__.py"
   "CMakeFiles/arbotix_msgs_generate_messages_py"
 )
 
