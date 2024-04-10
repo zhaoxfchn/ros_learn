@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/hello_world/demo04_sub_msg"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/hello_world/demo04_sub_msg.pdb"
   "CMakeFiles/demo04_sub_msg.dir/src/demo04_sub_msg.cpp.o"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/hello_world/demo04_sub_msg.pdb"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/hello_world/demo04_sub_msg"
 )
 
 # Per-language clean rules from dependency scanning.

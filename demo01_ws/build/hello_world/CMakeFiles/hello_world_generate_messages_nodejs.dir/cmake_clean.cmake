@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/share/gennodejs/ros/hello_world/msg/person.js"
   "CMakeFiles/hello_world_generate_messages_nodejs"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/share/gennodejs/ros/hello_world/msg/person.js"
 )
 
 # Per-language clean rules from dependency scanning.

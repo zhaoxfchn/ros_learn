@@ -1,4 +1,4 @@
-prefix=/home/zhaoxf/ros_learn/demo01_ws/install
+prefix=/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/install
 
 Name: plumbing_param
 Description: Description of plumbing_param

@@ -99,16 +99,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::hello_world::person_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::hello_world::person_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::hello_world::person_<ContainerAllocator> >
   : TrueType
   { };
@@ -116,6 +106,16 @@ struct IsMessage< ::hello_world::person_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::hello_world::person_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::hello_world::person_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::hello_world::person_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

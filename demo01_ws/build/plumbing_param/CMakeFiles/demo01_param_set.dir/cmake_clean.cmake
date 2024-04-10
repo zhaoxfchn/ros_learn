@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/plumbing_param/demo01_param_set"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/plumbing_param/demo01_param_set.pdb"
   "CMakeFiles/demo01_param_set.dir/src/demo01_param_set.cpp.o"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/plumbing_param/demo01_param_set.pdb"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/plumbing_param/demo01_param_set"
 )
 
 # Per-language clean rules from dependency scanning.

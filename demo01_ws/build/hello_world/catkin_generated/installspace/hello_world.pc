@@ -1,4 +1,4 @@
-prefix=/home/zhaoxf/ros_learn/demo01_ws/install
+prefix=/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/install
 
 Name: hello_world
 Description: Description of hello_world

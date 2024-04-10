@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/share/gennodejs/ros/plumbing_server_client/srv/add_init.js"
   "CMakeFiles/plumbing_server_client_generate_messages_nodejs"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/share/gennodejs/ros/plumbing_server_client/srv/add_init.js"
 )
 
 # Per-language clean rules from dependency scanning.

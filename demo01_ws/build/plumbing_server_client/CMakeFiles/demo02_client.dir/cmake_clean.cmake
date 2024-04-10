@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/plumbing_server_client/demo02_client"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/plumbing_server_client/demo02_client.pdb"
   "CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/plumbing_server_client/demo02_client.pdb"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/plumbing_server_client/demo02_client"
 )
 
 # Per-language clean rules from dependency scanning.

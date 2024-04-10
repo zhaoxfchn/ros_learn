@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "launch_basic"
-PROJECT_SPACE_DIR = "/home/zhaoxf/ros_learn/demo01_ws/devel"
+PROJECT_SPACE_DIR = "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel"
 PROJECT_VERSION = "0.0.0"

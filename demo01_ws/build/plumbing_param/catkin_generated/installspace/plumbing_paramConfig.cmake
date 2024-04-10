@@ -67,14 +67,14 @@ set(plumbing_param_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(plumbing_param_SOURCE_PREFIX /home/zhaoxf/ros_learn/demo01_ws/src/plumbing_param)
-  set(plumbing_param_DEVEL_PREFIX /home/zhaoxf/ros_learn/demo01_ws/devel)
+  set(plumbing_param_SOURCE_PREFIX /home/zhaoxf20/motion-plan/ros_learn/demo01_ws/src/plumbing_param)
+  set(plumbing_param_DEVEL_PREFIX /home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel)
   set(plumbing_param_INSTALL_PREFIX "")
   set(plumbing_param_PREFIX ${plumbing_param_DEVEL_PREFIX})
 else()
   set(plumbing_param_SOURCE_PREFIX "")
   set(plumbing_param_DEVEL_PREFIX "")
-  set(plumbing_param_INSTALL_PREFIX /home/zhaoxf/ros_learn/demo01_ws/install)
+  set(plumbing_param_INSTALL_PREFIX /home/zhaoxf20/motion-plan/ros_learn/demo01_ws/install)
   set(plumbing_param_PREFIX ${plumbing_param_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zhaoxf/ros_learn/demo01_ws/install/lib;/home/zhaoxf/ros_learn/demo01_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/zhaoxf20/motion-plan/ros_learn/demo01_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(plumbing_param_LIBRARIES ${plumbing_param_LIBRARIES})
 
   _list_append_unique(plumbing_param_LIBRARY_DIRS ${${plumbing_param_dep}_LIBRARY_DIRS})
-  list(APPEND plumbing_param_EXPORTED_TARGETS ${${plumbing_param_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(plumbing_param_EXPORTED_TARGETS ${${plumbing_param_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

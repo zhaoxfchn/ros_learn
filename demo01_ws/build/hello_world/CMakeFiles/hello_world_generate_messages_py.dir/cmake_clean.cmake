@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/python3/dist-packages/hello_world/msg/__init__.py"
+  "/home/zhaoxf20/motion-plan/ros_learn/demo01_ws/devel/lib/python3/dist-packages/hello_world/msg/_person.py"
   "CMakeFiles/hello_world_generate_messages_py"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/python2.7/dist-packages/hello_world/msg/_person.py"
-  "/home/zhaoxf/ros_learn/demo01_ws/devel/lib/python2.7/dist-packages/hello_world/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.
